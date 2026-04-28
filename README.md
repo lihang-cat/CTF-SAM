@@ -1,5 +1,4 @@
 
-```markdown
 # CTF-SAM: A Lightweight CLIP-Driven Tri-Modal Fusion Framework for Robust Text-Guided Medical Image Segmentation
 
 This is the official implementation of the paper: **"CTF-SAM: A Lightweight CLIP-Driven Tri-Modal Fusion Framework for Robust Text-Guided Medical Image Segmentation."**
@@ -95,4 +94,3 @@ python eval.py
 1. **Quantitative Metrics**: Calculates Dice Score and NSD (Tolerance=2.0) for every dataset and organ.
 2. **Report Generation**: Prints a global macro-average report in the terminal and exports results to `clipsamnet_macro_results.csv`.
 3. **Qualitative Analysis**: Saves visual samples (Image with prompt, Ground Truth, and Prediction) to `vis_results_v1/normal_samples/`.
-```
