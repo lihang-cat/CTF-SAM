@@ -1,0 +1,22 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 环境与 IDE
+.env
+.vscode/
+.idea/
+
+# 深度学习产生的大文件
+*.pth
+*.pt
+*.ckpt
+weights/
+checkpoints/
+
+# 数据集
+data/processed/
+datasets/
+*.nii.gz
+*.png
+*.jpg

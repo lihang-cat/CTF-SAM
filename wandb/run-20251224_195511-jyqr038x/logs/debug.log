@@ -1,0 +1,11 @@
+2025-12-24 19:55:11,973 INFO    MainThread:39492 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-24 19:55:11,974 INFO    MainThread:39492 [wandb_setup.py:_flush():80] Configure stats pid to 39492
+2025-12-24 19:55:11,974 INFO    MainThread:39492 [wandb_setup.py:_flush():80] Loading settings from C:\Users\»ªË¶\.config\wandb\settings
+2025-12-24 19:55:11,974 INFO    MainThread:39492 [wandb_setup.py:_flush():80] Loading settings from E:\code\Med-CLIP-SAM\wandb\settings
+2025-12-24 19:55:11,974 INFO    MainThread:39492 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-24 19:55:11,974 INFO    MainThread:39492 [wandb_init.py:setup_run_log_directory():714] Logging user logs to E:\code\Med-CLIP-SAM\wandb\run-20251224_195511-jyqr038x\logs\debug.log
+2025-12-24 19:55:11,974 INFO    MainThread:39492 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to E:\code\Med-CLIP-SAM\wandb\run-20251224_195511-jyqr038x\logs\debug-internal.log
+2025-12-24 19:55:11,974 INFO    MainThread:39492 [wandb_init.py:init():841] calling init triggers
+2025-12-24 19:55:11,974 INFO    MainThread:39492 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'exp_name': 'Med-CLIP-SAM', 'data_root': 'E:/code/Med-CLIP-SAM', 'json_path': 'data/processed/total_train.json', 'val_json_path': 'data/processed/total_val.json', 'sam_checkpoint': './checkpoints/sam_vit_b_01ec64.pth', 'save_dir': './checkpoints', 'batch_size': 64, 'accum_iter': 1, 'num_workers': 8, 'num_epochs': 50, 'unfreeze_epoch': 3, 'lr_base': 0.0003, 'lr_backbone': 3e-05, 'weight_decay': 0.01, 'lora_r': 4, 'input_size': 256, 'mask_size': 256, 'aux_weight_start': 0.5, 'aux_weight_end': 0.05, 'warmup_ratio': 0.2, 'use_ema': True, 'ema_decay': 0.999, 'use_checkpointing': False, '_wandb': {}}
+2025-12-24 19:55:11,974 INFO    MainThread:39492 [wandb_init.py:init():889] starting backend
