@@ -22,8 +22,8 @@ We provide a comprehensive configuration file for environment setup. We recommen
 
 ```bash
 # 1. Clone the repository
-# git clone https://github.com/lihang-cat/CTF-SAM.git
-# cd CTF-SAM
+git clone https://github.com/lihang-cat/CTF-SAM.git
+cd CTF-SAM
 
 # 2. Create the conda environment
 conda env create -f environment.yml
